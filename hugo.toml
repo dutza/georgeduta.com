@@ -1,0 +1,18 @@
+baseURL = 'georgeduta.com'
+languageCode = 'en-us'
+title = 'Learn by doing'
+theme = 'PaperMod'
+
+[params]
+  # Add your site parameters here (e.g., title, description, etc.)
+  description = "A simple website withtutorials"
+  author = "George"
+  twitter = "your_twitter_handle"  # optional
+  github = "your_github_handle"  # optional
+  linkedin = "https://www.linkedin.com/in/geduta/"  # optional
+
+  # Enable dark mode toggle
+  darkMode = true
+
+  # Enable / Disable the search feature
+  search = true
