@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Learn by doing</title>
-    <link>//localhost:1313/posts/</link>
+    <link>georgeduta.com/posts/</link>
     <description>Recent content in Posts on Learn by doing</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 07:26:30 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="georgeduta.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>georgeduta.com/posts/my-first-post/</link>
       <pubDate>Tue, 05 Nov 2024 07:26:30 +0000</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>georgeduta.com/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is my first page&lt;/p&gt;</description>
     </item>
   </channel>

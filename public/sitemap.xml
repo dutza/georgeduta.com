@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>georgeduta.com/</loc>
     <lastmod>2024-11-05T07:26:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/my-first-post/</loc>
+    <loc>georgeduta.com/posts/my-first-post/</loc>
     <lastmod>2024-11-05T07:26:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>georgeduta.com/posts/</loc>
     <lastmod>2024-11-05T07:26:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>georgeduta.com/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>georgeduta.com/tags/</loc>
   </url>
 </urlset>
