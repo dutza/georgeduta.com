@@ -1,0 +1,47 @@
+baseURL = "https://priceless-visvesvaraya-4b7e5c.netlify.app/"
+title = "Podcasting"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+  Title = "Hi there stranger"
+  Content = "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff."
+
+  [[params.socialIcons]]
+  name = "facebook"
+  url = "https://facebook.com/"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/"
+
+  [params.cover]
+  linkFullImages = true
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30

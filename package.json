@@ -1,0 +1,16 @@
+{
+  "name": "my-hugo-site",
+  "version": "1.0.0",
+  "description": "My first Hugo website",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "start": "hugo server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

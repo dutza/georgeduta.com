@@ -1,0 +1,50 @@
+baseURL: ""
+title: Podcasting
+theme: PaperMod
+languageCode: "en-us"
+ignoreErrors: ["error-remote-getjson"]
+
+
+params:
+    # enable home-info mode
+    homeInfoParams:
+        Title: "Hi there stranger"
+        Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
+    socialIcons:
+        - name: facebook
+          url: "https://facebook.com/"
+        - name: twitter
+          url: "https://twitter.com/"
+        - name: github
+          url: "https://github.com/"
+
+    # enable hyperlinks to the full image size on post pages
+    cover:
+        linkFullImages: true
+
+    # Share Buttons on post
+    ShowShareButtons: true
+
+    # Post reading time
+    ShowReadingTime: true
+
+    # Other Posts suggestion below a post
+    ShowPostNavLinks: true
+
+    # Breadcrumbs
+    ShowBreadCrumbs: true
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30

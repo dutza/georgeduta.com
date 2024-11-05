@@ -1,4 +1,8 @@
-baseURL = 'georgeduta.com'
+baseURL = 'https://white-bush-08e69b003.5.azurestaticapps.net/'
 languageCode = 'en-us'
-title = 'Learn by doing'
-theme = 'PaperMod'
+title = 'My New Hugo Site'
+theme = "PaperMod"
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+  favicon = "favicon.svg"
