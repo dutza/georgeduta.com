@@ -1,6 +1,6 @@
-baseURL = 'https://white-bush-08e69b003.5.azurestaticapps.net/'
+baseURL = 'https://gray-coast-0d467ea10.5.azurestaticapps.net'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My learning'
 theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
