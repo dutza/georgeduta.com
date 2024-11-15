@@ -6,3 +6,4 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
   favicon = "favicon.svg"
+  ShowBreadCrumbs= "true"
