@@ -1,6 +1,6 @@
 baseURL = 'https://gray-coast-0d467ea10.5.azurestaticapps.net'
 languageCode = 'en-us'
-title = 'My learning'
+title = 'My Learning'
 theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
