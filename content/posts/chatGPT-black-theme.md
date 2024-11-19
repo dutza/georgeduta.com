@@ -6,7 +6,7 @@ title = 'Update ChatPDT AI page to black theme'
 
   ### Steps to update ChatGPT Ai website to have black theme:
 
-  # How to Enable Dark Mode in Browsers
+  ### How to Enable Dark Mode in Browsers
 
 Follow these steps to enable a **dark theme** (or dark mode) in popular browsers.
 
