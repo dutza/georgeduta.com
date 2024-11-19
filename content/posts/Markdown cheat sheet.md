@@ -41,6 +41,9 @@ Link:
 ![alt text](image.jpg)
 ```
 
+Image Error:
+![Error](https://github.com/dutza/georgeduta.com/blob/master/static/github%20CI%20-%20Oryx%20issue.png?raw=true)
+
 image html
 <p align="center">
 <a href="[https://www.gatsbyjs.com](https://hugo.io/)">
