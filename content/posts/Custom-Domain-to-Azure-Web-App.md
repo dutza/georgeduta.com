@@ -1,7 +1,7 @@
 +++
 date = '2024-11-21T9:38:17Z'
 draft = false
-title = 'Update ChatGPT AI page to black theme'
+title = 'Add custom domain to Azure Static Web App'
 +++
 
 ### Configure custom domaine 
