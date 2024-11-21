@@ -23,9 +23,9 @@ Error: error building site: logged 1 error(s)
 Oryx has failed to build the solution.
 ```
 
-Even though the proper version of hugo is installed, oryx do not read the proper verion
+Even though the proper Hugo ver is installed, oryx do not read the proper verion
 
-Solution is to install the latest version of Hugo and add it as variable:
+Solution is to install the latest Hugo and add it as variable:
 ![GitHub Pipeline](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/GitHub-oryx-error.jpg?raw=true)
 
 Template used with sensitive infomation removed:
