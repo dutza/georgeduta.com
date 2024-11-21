@@ -9,3 +9,9 @@ ignoreErrors = ["error-remote-getjson"]
   favicon = "favicon.svg"
   ShowBreadCrumbs= "true"
   env= "production"
+  footer = {
+    trademark = "© 2024"
+    author = "George"
+    topText = ["Made with Hugo and GitHub", "hosted on Azure"]
+    bottomText = ["Powered by Hugo"]
+  }
