@@ -10,6 +10,7 @@ ignoreErrors = ["error-remote-getjson"]
   ShowBreadCrumbs= "true"
   env= "production"
   # Footer settings
+  customFooter = "true"
   footerText = "© 2024 Your Website Name. All rights reserved."
   footerLinks = [
     { name = "Privacy Policy", url = "/privacy-policy/" },
