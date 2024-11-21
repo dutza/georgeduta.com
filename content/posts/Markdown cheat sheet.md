@@ -56,3 +56,17 @@ image html
 <img alt="description" src="https://image.png" width="60" />
   </a>
 ```
+---
+
+<!-- lines with numbers -->
+1. First item
+2. Second item
+3. Third item
+
+---
+
+Link:
+```sh
+[**George Duta**](https://georgeduta.com)
+```
+[**George Duta**](https://georgeduta.com)
