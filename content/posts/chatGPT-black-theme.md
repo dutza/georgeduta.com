@@ -1,7 +1,7 @@
 +++
 date = '2024-11-19T7:38:17Z'
 draft = false
-title = 'Update ChatPDT AI page to black theme'
+title = 'Update ChatGPT AI page to black theme'
 +++
 
   ### Steps to update ChatGPT Ai website to have black theme:

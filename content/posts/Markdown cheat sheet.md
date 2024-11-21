@@ -52,9 +52,7 @@ image html
 </p>
 
 ```sh
-<a href="https://www.image.com">
-<img alt="description" src="https://image.png" width="60" />
-  </a>
+![description](https://github.com/dutza/georgeduta.com/image.jpg)
 ```
 ---
 
