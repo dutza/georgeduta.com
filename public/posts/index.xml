@@ -6,8 +6,35 @@
     <description>Recent content in Posts on My Learning</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2024 18:38:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 07:38:17 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update ChatPDT AI page to black theme</title>
+      <link>http://localhost:1313/posts/chatgpt-black-theme/</link>
+      <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
+      <guid>http://localhost:1313/posts/chatgpt-black-theme/</guid>
+      <description>&lt;h3 id=&#34;steps-to-update-chatgpt-ai-website-to-have-black-theme&#34;&gt;Steps to update ChatGPT Ai website to have black theme:&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-enable-dark-mode-in-browsers&#34;&gt;How to Enable Dark Mode in Browsers&lt;/h3&gt;
+&lt;p&gt;Follow these steps to enable a &lt;strong&gt;dark theme&lt;/strong&gt; (or dark mode) in popular browsers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-google-chrome&#34;&gt;1. Google Chrome&lt;/h2&gt;
+&lt;h3 id=&#34;enable-system-wide-dark-mode-automatic-approach&#34;&gt;Enable System-Wide Dark Mode (Automatic Approach)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;Settings &amp;gt; Personalization &amp;gt; Colors&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Under &amp;ldquo;Choose your color,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;System Preferences &amp;gt; General&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In &amp;ldquo;Appearance,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chrome will switch to dark mode automatically.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
@@ -53,12 +80,24 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### H3&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;!&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;alt text&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;image.jpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;image html&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Image Error:
+&lt;img alt=&#34;Error&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/dutza/georgeduta.com/blob/master/static/github%20CI%20-%20Oryx%20issue.png?raw=true&#34;&gt;&lt;/p&gt;
+&lt;p&gt;image html&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;a href&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.image.com&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;img alt&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt; src&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://image.png&amp;#34;&lt;/span&gt; width&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;60&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/a&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Link:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**George Duta**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://georgeduta.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

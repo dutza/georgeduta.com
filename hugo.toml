@@ -1,4 +1,5 @@
-baseURL = 'https://gray-coast-0d467ea10.5.azurestaticapps.net'
+# baseURL = 'https://gray-coast-0d467ea10.5.azurestaticapps.net'
+baseURL = 'https://www.georgeduta.com'
 languageCode = 'en-us'
 title = 'My Learning'
 theme = "PaperMod"
