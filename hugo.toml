@@ -6,8 +6,25 @@ theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
+    [params.homeInfoParams]
+    Title = "Powerd by Github hosted in Azure"
+    Content = "Created using Visual Studio Code with Github Copilot extension"
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dutza"
+    
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/geduta"
+
+  [[params.socialIcons]]
+  name = "microsoft"
+  url = "https://azure.microsoft.com"
+
   favicon = "favicon.svg"
   ShowBreadCrumbs= "true"
   env= "production"
   ShowReadingTime = "true"
   ShowShareButtons = "true"
+  ShowPostNavLinks = "true"

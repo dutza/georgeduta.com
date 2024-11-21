@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Hugo framework deployed to Azure cloud | My Learning</title>
 <meta name="keywords" content="">
 <meta name="description" content="✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration
@@ -68,82 +68,7 @@ Open CMD as administrator and run:">
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/posts/hugo-2-azure/">
-  <meta property="og:site_name" content="My Learning">
-  <meta property="og:title" content="Hugo framework deployed to Azure cloud">
-  <meta property="og:description" content="✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration 🚀 Getting Started to create a free website with incredible performace environment: Windows 10 with admin rights install chocolatey package manager install hugo using chocolatey install Visual studio code install Git commit to Github Create Azure Static Web App install chocolatey package manager Open CMD as administrator and run:">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-11-03T16:58:17+00:00">
-    <meta property="article:modified_time" content="2024-11-03T16:58:17+00:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hugo framework deployed to Azure cloud">
-<meta name="twitter:description" content="✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration
-
-🚀 Getting Started to create a free website with incredible performace
-
-environment: Windows 10 with admin rights
-install chocolatey package manager
-install hugo using chocolatey
-install Visual studio code
-install Git 
-commit to Github
-Create Azure Static Web App
-
-install chocolatey package manager
-Open CMD as administrator and run:">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "http://localhost:1313/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Hugo framework deployed to Azure cloud",
-      "item": "http://localhost:1313/posts/hugo-2-azure/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Hugo framework deployed to Azure cloud",
-  "name": "Hugo framework deployed to Azure cloud",
-  "description": "✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration 🚀 Getting Started to create a free website with incredible performace environment: Windows 10 with admin rights install chocolatey package manager install hugo using chocolatey install Visual studio code install Git commit to Github Create Azure Static Web App install chocolatey package manager Open CMD as administrator and run:\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration 🚀 Getting Started to create a free website with incredible performace environment: Windows 10 with admin rights install chocolatey package manager install hugo using chocolatey install Visual studio code install Git commit to Github Create Azure Static Web App install chocolatey package manager Open CMD as administrator and run:\npowershell -Command \"Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\" @\"%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command \"iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\" \u0026\u0026 SET \"PATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin\" close and open another terminal to check the version\nchoco --version install hugo: choco install hugo -confirm hugo version (Download Visual Studio Code for Windows) {#VS}\ninstall Git: choco install git -confirm git --version Create the website using Hugo framework. Step 1: Open CMD and change directory to Hugo path: cd C:\\ProgramData\\chocolatey\\bin Step 2: Create new Hugo Site hugo new site your-site-name Step 3: Add the PaperMod Theme cd your-site-name git init # Initialize a Git repo if not already initialized git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive Step 4: Open folder in VS: code . Step 5: Configure Your Site Now, you need to configure your site by modifying the config.toml (or config.yaml if you prefer that format) in the root of your Hugo project.\nbaseURL = \"https://example.com/\" languageCode = \"en-us\" title = \"My Hugo Website\" theme = \"PaperMod\" [params] # Add your site parameters here (e.g., title, description, etc.) description = \"A simple Hugo site using PaperMod theme\" author = \"Your Name\" twitter = \"your_twitter_handle\" # optional github = \"your_github_handle\" # optional linkedin = \"your_linkedin_handle\" # optional Step 6: **Create a new post using CMD teminal hugo new posts/my-first-post.md Step 7: **Run the Local Server To preview your site locally, navigate to your site directory and run: hugo server This will start the Hugo development server at http://localhost:1313/. Open that URL in your browser to see your site live locally. if you receive any error, please un incognite mode CTRL+SHIFT+N Deploy to Azure Deploy Hugo Website to Azure Static Web Apps This guide walks you through the steps to deploy a Hugo-based website to Azure Static Web Apps.\nPrerequisites Before you start, make sure you have the following:\nAzure account: Create an Azure account if you don’t have one. Hugo installed: Make sure you have Hugo installed on your local machine. You can download it from Hugo’s official site. GitHub account: Azure Static Web Apps integrates with GitHub for continuous deployment. Git installed: Make sure you have Git installed on your local machine. 2. Push Your Hugo Site to GitHub Create a new repository on GitHub.\nInitialize a Git repository in your Hugo site folder:\ngit init git add . git commit -m \"Initial commit\" Add the GitHub remote URL and push your site:\ngit remote add origin https://github.com/yourusername/your-repo-name.git git push -u origin master 3. Create Azure Static Web App Log in to Azure: Go to Azure Portal and log in to your account.\nCreate a new Static Web App:\nIn the Azure portal, click on Create a resource. Search for Static Web Apps and select it. Click Create. Enter the following details: Subscription: Choose your subscription. Resource Group: Create a new one or select an existing one. Name: Provide a unique name for your Static Web App. Region: Select the region closest to your users. Deployment: Choose GitHub as the source. Repository: Select the repository where your Hugo site is stored. Branch: Choose the branch to deploy (usually main or master). Build Presets: Choose Hugo. App artifact location: Enter public (this is the default folder where Hugo builds the site). Review and Create:\nClick Review + Create and then Create. Azure will automatically set up the GitHub Actions for continuous deployment. 4. Configure GitHub Actions for Continuous Deployment Once your Azure Static Web App is created, Azure will automatically create a GitHub Action workflow file to build and deploy the site. This file is located in your GitHub repository under .github/workflows/azure-static-web-apps.yml.\nMake sure the artifact location in the workflow matches the public folder where Hugo generates the final static files:\napp_location: \"/\" api_location: \"/\" app_artifact_location: \"public\" ",
-  "wordCount" : "694",
-  "inLanguage": "en",
-  "datePublished": "2024-11-03T16:58:17Z",
-  "dateModified": "2024-11-03T16:58:17Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/hugo-2-azure/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "My Learning",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -193,7 +118,7 @@ Open CMD as administrator and run:">
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    
     <h1 class="post-title entry-hint-parent">
       Hugo framework deployed to Azure cloud
     </h1>
