@@ -9,11 +9,5 @@ ignoreErrors = ["error-remote-getjson"]
   favicon = "favicon.svg"
   ShowBreadCrumbs= "true"
   env= "production"
-  # Footer settings
-  customFooter = "true"
-  footerText = "© 2024 Your Website Name. All rights reserved."
-  footerLinks = [
-    { name = "Privacy Policy", url = "/privacy-policy/" },
-    { name = "Terms of Service", url = "/terms-of-service/" },
-    { name = "Contact", url = "/contact/" }
-  ]
+  ShowReadingTime = "true"
+  ShowShareButtons = "true"
