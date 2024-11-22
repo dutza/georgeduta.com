@@ -6,6 +6,7 @@ theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
+description = "My learning experience using new technologies like Ai Agents"
 googleAnalytics = "G-2TXNCK65VC"
 favicon = "favicon.svg"
 ShowBreadCrumbs= "true"
@@ -46,7 +47,6 @@ ShowArchiveCount = true
 
     [params.SEO]
     enabled = "true"
-
 
   
 [[menu.main]]
