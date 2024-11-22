@@ -6,6 +6,7 @@ theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
+googleAnalytics = "G-2TXNCK65VC"
 favicon = "favicon.svg"
 ShowBreadCrumbs= "true"
 env= "production"
