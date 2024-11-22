@@ -1,7 +1,9 @@
 +++
 date = '2024-11-03T16:58:17Z'
-draft = false
-title = 'Archive test'
+draft = "false"
+title = 'Archive'
+layout= "archives"
+summary= "archives"
 +++
 
-Archive test
+This is another test
