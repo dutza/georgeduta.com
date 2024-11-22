@@ -5,5 +5,3 @@ title = 'Archive'
 layout= "archives"
 summary= "archives"
 +++
-
-This is another test
