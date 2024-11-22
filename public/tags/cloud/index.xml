@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud on My Learning</title>
+    <link>http://localhost:1313/tags/cloud/</link>
+    <description>Recent content in Cloud on My Learning</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2024 05:00:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ms Ignite Day1</title>
+      <link>http://localhost:1313/posts/ms-ignite-day1/</link>
+      <pubDate>Fri, 22 Nov 2024 05:00:19 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ms-ignite-day1/</guid>
+      <description>&lt;h2 id=&#34;keynote-highlights&#34;&gt;Keynote Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Copilot integration across Microsoft products&lt;/li&gt;
+&lt;li&gt;Azure AI Studio announcements&lt;/li&gt;
+&lt;li&gt;Security and compliance updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-and-machine-learning&#34;&gt;AI and Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction of Azure AI Studio&lt;/li&gt;
+&lt;li&gt;Copilot Studio enhancements&lt;/li&gt;
+&lt;li&gt;New AI model deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cloud-infrastructure&#34;&gt;Cloud Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure infrastructure updates&lt;/li&gt;
+&lt;li&gt;Sustainability improvements&lt;/li&gt;
+&lt;li&gt;New regions announcement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;security-and-compliance&#34;&gt;Security and Compliance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Entra updates&lt;/li&gt;
+&lt;li&gt;Zero Trust advancements&lt;/li&gt;
+&lt;li&gt;Security copilot features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;developer-tools&#34;&gt;Developer Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Copilot innovations&lt;/li&gt;
+&lt;li&gt;Visual Studio enhancements&lt;/li&gt;
+&lt;li&gt;DevOps improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-and-analytics&#34;&gt;Data and Analytics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure OpenAI Service updates&lt;/li&gt;
+&lt;li&gt;Database improvements&lt;/li&gt;
+&lt;li&gt;Real-time analytics capabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;microsoft-365&#34;&gt;Microsoft 365&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teams platform updates&lt;/li&gt;
+&lt;li&gt;Office integration with Copilot&lt;/li&gt;
+&lt;li&gt;Collaboration tools enhancement&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

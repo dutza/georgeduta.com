@@ -28,3 +28,23 @@ ignoreErrors = ["error-remote-getjson"]
   ShowReadingTime = "true"
   ShowShareButtons = "true"
   ShowPostNavLinks = "true"
+
+
+  
+[[menu.main]]
+identifier = "Categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "About"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "Contact"
+name = "Archives"
+url = "/archives/"
+weight = 30
