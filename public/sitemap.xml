@@ -17,10 +17,10 @@
     <loc>http://localhost:1313/categories/microsoft/</loc>
     <lastmod>2024-11-22T05:00:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ms-ignite/</loc>
+    <loc>http://localhost:1313/posts/ms-ignite-day1/</loc>
     <lastmod>2024-11-22T05:00:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ms-ignite-day1/</loc>
+    <loc>http://localhost:1313/tags/ms-ignite/</loc>
     <lastmod>2024-11-22T05:00:19+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -43,6 +43,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2024-11-03T18:38:17+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/archives/</loc>
+    <lastmod>2024-11-03T16:58:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hugo-2-azure/</loc>
     <lastmod>2024-11-03T16:58:17+00:00</lastmod>

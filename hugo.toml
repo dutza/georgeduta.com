@@ -6,6 +6,22 @@ theme = "PaperMod"
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
+favicon = "favicon.svg"
+ShowBreadCrumbs= "true"
+env= "production"
+enableRobotsTXT = true
+ShowReadingTime = "true"
+ShowShareButtons = "true"
+ShowPostNavLinks = "true"
+ShowCodeCopyButtons= "true"
+ShowArchiveCount = true 
+    [params.archives]
+    enabled = true
+    path = "archives"
+    posts = true
+    annual = true
+    monthly = true
+
     [params.homeInfoParams]
     Title = "Powerd by Github hosted in Azure"
     Content = "Created using Visual Studio Code with Github Copilot extension"
@@ -14,20 +30,17 @@ ignoreErrors = ["error-remote-getjson"]
     name = "github"
     url = "https://github.com/dutza"
     
-  [[params.socialIcons]]
+    [[params.socialIcons]]
     name = "linkedin"
     url = "https://linkedin.com/in/geduta"
 
-  [[params.socialIcons]]
-  name = "microsoft"
-  url = "https://azure.microsoft.com"
+    [[params.socialIcons]]
+    name = "microsoft"
+    url = "https://azure.microsoft.com"
 
-  favicon = "favicon.svg"
-  ShowBreadCrumbs= "true"
-  env= "production"
-  ShowReadingTime = "true"
-  ShowShareButtons = "true"
-  ShowPostNavLinks = "true"
+
+    [params.SEO]
+    enabled = "true"
 
 
   
@@ -44,7 +57,8 @@ url = "/tags/"
 weight = 20
 
 [[menu.main]]
-identifier = "Contact"
+identifier = "archives"
 name = "Archives"
-url = "/archives/"
+url = "/posts/archives/"
 weight = 30
+
