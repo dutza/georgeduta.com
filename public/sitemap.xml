@@ -44,6 +44,9 @@
     <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2024-11-03T18:38:17+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/archives/</loc>
+    <lastmod>2024-11-03T16:58:17+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/hugo-2-azure/</loc>
     <lastmod>2024-11-03T16:58:17+00:00</lastmod>
   </url><url>

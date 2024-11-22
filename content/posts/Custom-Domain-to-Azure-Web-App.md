@@ -11,8 +11,10 @@ title = 'Add custom domain to Azure Static Web App'
    *"Copy the CNAME hostname record and enter it with your DNS provider to confirm your domain ownership. It can take up to 48 hours for DNS entry changes to take effect."*
 
 Namecheap DNS entry
-![Azure Print Scree](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true)
+[![Azure Print Scree](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true)](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true)
 
 ---
 Azure Custom Domains for Static Apps
-![Azure Print Scree](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true)
+[![Azure Print Scree](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true)](https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true)
+
+

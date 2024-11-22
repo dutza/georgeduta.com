@@ -22,6 +22,10 @@ ShowArchiveCount = true
     annual = true
     monthly = true
 
+    [params.cover]
+    linkFullImages= "true"
+    responsiveImages= "true"
+
     [params.homeInfoParams]
     Title = "Powerd by Github hosted in Azure"
     Content = "Created using Visual Studio Code with Github Copilot extension"
