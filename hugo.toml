@@ -47,7 +47,6 @@ ShowArchiveCount = true
 
     [params.SEO]
     enabled = "true"
-
   
 [[menu.main]]
 identifier = "Categories"
@@ -66,4 +65,10 @@ identifier = "archives"
 name = "Archives"
 url = "/posts/archives/"
 weight = 30
+
+[[menu.main]]
+identifier = "qr-generator"
+name = "QR Generator"
+url = "/qr-generator/"
+weight = 40
 

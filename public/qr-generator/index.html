@@ -7,11 +7,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Cloud | My Learning</title>
+<title>QR Code Generator | My Learning</title>
 <meta name="keywords" content="">
-<meta name="description" content="My learning experience using new technologies like Ai Agents">
+<meta name="description" content="Generate QR codes easily">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/cloud/">
+<link rel="canonical" href="http://localhost:1313/qr-generator/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -20,8 +20,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/cloud/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/cloud/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/qr-generator/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,19 +57,63 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/tags/cloud/">
+</noscript><meta property="og:url" content="http://localhost:1313/qr-generator/">
   <meta property="og:site_name" content="My Learning">
-  <meta property="og:title" content="Cloud">
-  <meta property="og:description" content="My learning experience using new technologies like Ai Agents">
+  <meta property="og:title" content="QR Code Generator">
+  <meta property="og:description" content="Generate QR codes easily">
   <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cloud">
-<meta name="twitter:description" content="My learning experience using new technologies like Ai Agents">
+<meta name="twitter:title" content="QR Code Generator">
+<meta name="twitter:description" content="Generate QR codes easily">
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "QR Code Generator",
+      "item": "http://localhost:1313/qr-generator/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "QR Code Generator",
+  "name": "QR Code Generator",
+  "description": "Generate QR codes easily",
+  "keywords": [
+    
+  ],
+  "articleBody": "",
+  "wordCount" : "0",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/qr-generator/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "My Learning",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -127,30 +170,81 @@
             </li>
             <li>
                 <a href="http://localhost:1313/qr-generator/" title="QR Generator">
-                    <span>QR Generator</span>
+                    <span class="active">QR Generator</span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
-  <h1>
-    Cloud
-  </h1>
-</header>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Microsoft Ignite Day 1
-    </h2>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">QR Code Generator</h1>
   </header>
-  <div class="entry-content">
-    <p>Keynote Highlights Copilot integration across Microsoft products Azure AI Studio announcements Security and compliance updates AI and Machine Learning Introduction of Azure AI Studio Copilot Studio enhancements New AI model deployments Cloud Infrastructure Azure infrastructure updates Sustainability improvements New regions announcement Security and Compliance Microsoft Entra updates Zero Trust advancements Security copilot features Developer Tools GitHub Copilot innovations Visual Studio enhancements DevOps improvements Data and Analytics Azure OpenAI Service updates Database improvements Real-time analytics capabilities Microsoft 365 Teams platform updates Office integration with Copilot Collaboration tools enhancement </p>
+
+  <div class="post-content">
+    <div class="qr-generator">
+      <input type="text" id="text" placeholder="Enter text or URL" class="input">
+      <button onclick="generateQRCode()" class="button">Generate QR Code</button>
+      <button id="downloadBtn" onclick="downloadQRCode()" class="button" style="display:none;">Download QR Code</button>
+      <div id="qrcode"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script>
+      function generateQRCode() {
+        const text = document.getElementById("text").value;
+        const qrCodeContainer = document.getElementById("qrcode");
+        qrCodeContainer.innerHTML = "";
+
+        if (text) {
+          new QRCode(qrCodeContainer, {
+            text: text,
+            width: 200,
+            height: 200
+          });
+          document.getElementById("downloadBtn").style.display = "inline-block";
+        }
+      }
+
+      function downloadQRCode() {
+        const canvas = document.querySelector("#qrcode canvas");
+        const link = document.createElement("a");
+        link.download = "qrcode.png";
+        link.href = canvas.toDataURL();
+        link.click();
+      }
+    </script>
+
+    <style>
+      .qr-generator {
+        text-align: center;
+        margin: 2rem 0;
+      }
+      .input {
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1rem;
+      }
+      .button {
+        background: var(--primary);
+        color: var(--theme);
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        margin: 0.5rem;
+        cursor: pointer;
+      }
+      #qrcode {
+        margin: 2rem auto;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
   </div>
-  <footer class="entry-footer"><span title='2024-11-22 05:00:19 +0000 UTC'>November 22, 2024</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Microsoft Ignite Day 1" href="http://localhost:1313/posts/ms-ignite-day1/"></a>
 </article>
+
     </main>
     
 <footer class="footer">
@@ -221,6 +315,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

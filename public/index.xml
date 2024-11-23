@@ -185,5 +185,12 @@ Oryx has failed to build the solution.
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**George Duta**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://georgeduta.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>QR Code Generator</title>
+      <link>http://localhost:1313/qr-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qr-generator/</guid>
+      <description>Generate QR codes easily</description>
+    </item>
   </channel>
 </rss>
