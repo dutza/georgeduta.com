@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Learning</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on My Learning</description>
-    <generator>Hugo -- 0.136.5</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2024 05:00:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -27,6 +27,27 @@
       <link>http://localhost:1313/tags/ms-ignite/</link>
       <pubDate>Fri, 22 Nov 2024 05:00:19 +0000</pubDate>
       <guid>http://localhost:1313/tags/ms-ignite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
+      <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
+      <guid>http://localhost:1313/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GhatGPT</title>
+      <link>http://localhost:1313/tags/ghatgpt/</link>
+      <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ghatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theme</title>
+      <link>http://localhost:1313/tags/theme/</link>
+      <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
+      <guid>http://localhost:1313/tags/theme/</guid>
       <description></description>
     </item>
   </channel>

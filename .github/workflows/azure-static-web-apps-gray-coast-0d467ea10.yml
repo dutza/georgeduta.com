@@ -46,11 +46,7 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
-          skip_build: "true"  # Allow Oryx to run the build process
           skip_api_build: "true"
-          environment_variables: |
-            OryxVersion=20240408.1  # Specify the Oryx version here
-            HUGO_VERSION=0.137.0     # Ensure Oryx uses the correct Hugo version
           ###### End of Repository/Build Configurations ######
           
   close_pull_request_job:

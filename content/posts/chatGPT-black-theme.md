@@ -2,9 +2,11 @@
 date = '2024-11-19T7:38:17Z'
 draft = false
 title = 'Update ChatGPT AI page to black theme'
+tags = ['GhatGPT', 'code', 'theme']
+categories = ['GhatGPT', 'AI']
 +++
 
-  ### Steps to update ChatGPT Ai website to have black theme:
+  ### Steps to update ChatGPT Ai website to have black theme
 
   ### How to Enable Dark Mode in Browsers
 

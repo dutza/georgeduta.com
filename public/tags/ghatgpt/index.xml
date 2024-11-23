@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GhatGPT on My Learning</title>
+    <link>http://localhost:1313/tags/ghatgpt/</link>
+    <description>Recent content in GhatGPT on My Learning</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Nov 2024 07:38:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ghatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update ChatGPT AI page to black theme</title>
+      <link>http://localhost:1313/posts/chatgpt-black-theme/</link>
+      <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
+      <guid>http://localhost:1313/posts/chatgpt-black-theme/</guid>
+      <description>&lt;h3 id=&#34;steps-to-update-chatgpt-ai-website-to-have-black-theme&#34;&gt;Steps to update ChatGPT Ai website to have black theme&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-enable-dark-mode-in-browsers&#34;&gt;How to Enable Dark Mode in Browsers&lt;/h3&gt;
+&lt;p&gt;Follow these steps to enable a &lt;strong&gt;dark theme&lt;/strong&gt; (or dark mode) in popular browsers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-google-chrome&#34;&gt;1. Google Chrome&lt;/h2&gt;
+&lt;h3 id=&#34;enable-system-wide-dark-mode-automatic-approach&#34;&gt;Enable System-Wide Dark Mode (Automatic Approach)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;Settings &amp;gt; Personalization &amp;gt; Colors&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Under &amp;ldquo;Choose your color,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;System Preferences &amp;gt; General&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In &amp;ldquo;Appearance,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chrome will switch to dark mode automatically.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
