@@ -168,6 +168,11 @@
                     <span>Archives</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/qr-generator/" title="QR Generator">
+                    <span class="active">QR Generator</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -185,7 +190,10 @@
       <div id="qrcode"></div>
     </div>
 
+    
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
+    
     <script>
       function generateQRCode() {
         const text = document.getElementById("text").value;
@@ -211,6 +219,7 @@
       }
     </script>
 
+    
     <style>
       .qr-generator {
         text-align: center;
