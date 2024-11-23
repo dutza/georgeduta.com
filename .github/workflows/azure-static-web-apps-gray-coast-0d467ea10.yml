@@ -46,7 +46,6 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
-          skip_build: "true"  # Allow Oryx to run the build process
           skip_api_build: "true"
           environment_variables: |
             OryxVersion=20240408.1  # Specify the Oryx version here
