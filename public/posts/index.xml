@@ -303,8 +303,6 @@ Oryx has failed to build the solution.
 &lt;p&gt;Chrome will switch to dark mode automatically.&lt;/p&gt;</description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 03 Nov 2024 18:38:17 +0000</pubDate>
@@ -312,7 +310,6 @@ Oryx has failed to build the solution.
       <description>&lt;p&gt;This is my first post using the PaperMod theme!&lt;/p&gt;</description>
     </item>
     <item>
->>>>>>> d1e94bf73073e25ce2aa4a675e641d9c51c5519b
       <title>Hugo framework deployed to Azure cloud</title>
       <link>http://localhost:1313/posts/hugo-2-azure/</link>
       <pubDate>Sun, 03 Nov 2024 16:58:17 +0000</pubDate>
