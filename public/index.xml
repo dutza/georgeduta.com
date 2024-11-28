@@ -6,8 +6,80 @@
     <description>Recent content on My Learning</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2024 05:00:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 07:00:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Ignite 2024 Day 2 Main Events</title>
+      <link>http://localhost:1313/posts/ms-ignite-day2/</link>
+      <pubDate>Fri, 22 Nov 2024 07:00:19 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ms-ignite-day2/</guid>
+      <description>&lt;h2 id=&#34;microsoft-ignite-2024---day-2-highlights&#34;&gt;Microsoft Ignite 2024 - Day 2 Highlights&lt;/h2&gt;
+&lt;h3 id=&#34;keynote-sessions&#34;&gt;Keynote Sessions&lt;/h3&gt;
+&lt;h4 id=&#34;azure-infrastructure-evolution&#34;&gt;Azure Infrastructure Evolution&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: 11:00 AM - 12:00 PM PST&lt;/li&gt;
+&lt;li&gt;Speaker: Mark Russinovich, CTO Microsoft Azure&lt;/li&gt;
+&lt;li&gt;Topics:
+&lt;ul&gt;
+&lt;li&gt;Azure infrastructure innovations&lt;/li&gt;
+&lt;li&gt;Sustainable cloud computing&lt;/li&gt;
+&lt;li&gt;Next-gen virtualization&lt;/li&gt;
+&lt;li&gt;Cloud security architecture&lt;/li&gt;
+&lt;li&gt;Azure confidential computing advances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;developer-platform-evolution&#34;&gt;Developer Platform Evolution&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: 1:00 PM - 2:30 PM PST&lt;/li&gt;
+&lt;li&gt;Speaker: Scott Guthrie&lt;/li&gt;
+&lt;li&gt;Topics: GitHub Copilot advances, Azure DevOps updates, and new developer tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;enterprise-security-in-the-ai-era&#34;&gt;Enterprise Security in the AI Era&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: 2:45 PM - 3:45 PM PST&lt;/li&gt;
+&lt;li&gt;Focus: Advanced security measures for AI workloads&lt;/li&gt;
+&lt;li&gt;Microsoft Entra updates and identity protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cloud-native-applications&#34;&gt;Cloud Native Applications&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: 4:00 PM - 5:00 PM PST&lt;/li&gt;
+&lt;li&gt;Topics:
+&lt;ul&gt;
+&lt;li&gt;Kubernetes on Azure updates&lt;/li&gt;
+&lt;li&gt;Container innovations&lt;/li&gt;
+&lt;li&gt;Microservices architecture best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;data--analytics-platform&#34;&gt;Data &amp;amp; Analytics Platform&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: 5:15 PM - 6:15 PM PST&lt;/li&gt;
+&lt;li&gt;Focus:
+&lt;ul&gt;
+&lt;li&gt;Microsoft Fabric developments&lt;/li&gt;
+&lt;li&gt;Power BI enhancements&lt;/li&gt;
+&lt;li&gt;Azure Synapse Analytics updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hands-on-labs&#34;&gt;Hands-on Labs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure OpenAI Service Implementation (2:00 PM - 3:30 PM)&lt;/li&gt;
+&lt;li&gt;Microsoft 365 Copilot Workshop (3:45 PM - 5:15 PM)&lt;/li&gt;
+&lt;li&gt;Security Operations Workshop (2:00 PM - 4:00 PM)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;innovation-showcase&#34;&gt;Innovation Showcase&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Time: Throughout Day&lt;/li&gt;
+&lt;li&gt;Location: Exhibition Hall&lt;/li&gt;
+&lt;li&gt;Features: Demo stations for new Microsoft technologies&lt;/li&gt;
+&lt;li&gt;Partner solutions and integrations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-highlights-from-day-2&#34;&gt;Key Highlights from Day 2&lt;/h2&gt;
+&lt;h3 id=&#34;1-mark-russinovichs-presentation-innovating-with-azure-at-the-edge&#34;&gt;1. &lt;strong&gt;Mark Russinovich&amp;rsquo;s Presentation: &amp;ldquo;Innovating with Azure at the Edge&amp;rdquo;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Mark Russinovich, CTO of Azure, took center stage to discuss the transformative role of &lt;strong&gt;Azure Edge&lt;/strong&gt; in modern computing. Here are the key points from his presentation:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Microsoft Ignite Day 1</title>
       <link>http://localhost:1313/posts/ms-ignite-day1/</link>
