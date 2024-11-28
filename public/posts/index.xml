@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on My Learning</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My Learning</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2024 05:00:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,56 +13,170 @@
       <link>http://localhost:1313/posts/ms-ignite-day1/</link>
       <pubDate>Fri, 22 Nov 2024 05:00:19 +0000</pubDate>
       <guid>http://localhost:1313/posts/ms-ignite-day1/</guid>
-      <description>&lt;h2 id=&#34;keynote-highlights&#34;&gt;Keynote Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Copilot integration across Microsoft products&lt;/li&gt;&#xA;&lt;li&gt;Azure AI Studio announcements&lt;/li&gt;&#xA;&lt;li&gt;Security and compliance updates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ai-and-machine-learning&#34;&gt;AI and Machine Learning&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction of Azure AI Studio&lt;/li&gt;&#xA;&lt;li&gt;Copilot Studio enhancements&lt;/li&gt;&#xA;&lt;li&gt;New AI model deployments&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cloud-infrastructure&#34;&gt;Cloud Infrastructure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Azure infrastructure updates&lt;/li&gt;&#xA;&lt;li&gt;Sustainability improvements&lt;/li&gt;&#xA;&lt;li&gt;New regions announcement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;security-and-compliance&#34;&gt;Security and Compliance&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Microsoft Entra updates&lt;/li&gt;&#xA;&lt;li&gt;Zero Trust advancements&lt;/li&gt;&#xA;&lt;li&gt;Security copilot features&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;developer-tools&#34;&gt;Developer Tools&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub Copilot innovations&lt;/li&gt;&#xA;&lt;li&gt;Visual Studio enhancements&lt;/li&gt;&#xA;&lt;li&gt;DevOps improvements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-and-analytics&#34;&gt;Data and Analytics&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Azure OpenAI Service updates&lt;/li&gt;&#xA;&lt;li&gt;Database improvements&lt;/li&gt;&#xA;&lt;li&gt;Real-time analytics capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;microsoft-365&#34;&gt;Microsoft 365&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Teams platform updates&lt;/li&gt;&#xA;&lt;li&gt;Office integration with Copilot&lt;/li&gt;&#xA;&lt;li&gt;Collaboration tools enhancement&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;keynote-highlights&#34;&gt;Keynote Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Copilot integration across Microsoft products&lt;/li&gt;
+&lt;li&gt;Azure AI Studio announcements&lt;/li&gt;
+&lt;li&gt;Security and compliance updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-and-machine-learning&#34;&gt;AI and Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction of Azure AI Studio&lt;/li&gt;
+&lt;li&gt;Copilot Studio enhancements&lt;/li&gt;
+&lt;li&gt;New AI model deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cloud-infrastructure&#34;&gt;Cloud Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure infrastructure updates&lt;/li&gt;
+&lt;li&gt;Sustainability improvements&lt;/li&gt;
+&lt;li&gt;New regions announcement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;security-and-compliance&#34;&gt;Security and Compliance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Entra updates&lt;/li&gt;
+&lt;li&gt;Zero Trust advancements&lt;/li&gt;
+&lt;li&gt;Security copilot features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;developer-tools&#34;&gt;Developer Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Copilot innovations&lt;/li&gt;
+&lt;li&gt;Visual Studio enhancements&lt;/li&gt;
+&lt;li&gt;DevOps improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-and-analytics&#34;&gt;Data and Analytics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure OpenAI Service updates&lt;/li&gt;
+&lt;li&gt;Database improvements&lt;/li&gt;
+&lt;li&gt;Real-time analytics capabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;microsoft-365&#34;&gt;Microsoft 365&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teams platform updates&lt;/li&gt;
+&lt;li&gt;Office integration with Copilot&lt;/li&gt;
+&lt;li&gt;Collaboration tools enhancement&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Add custom domain to Azure Static Web App</title>
       <link>http://localhost:1313/posts/custom-domain-to-azure-web-app/</link>
       <pubDate>Thu, 21 Nov 2024 09:38:17 +0000</pubDate>
       <guid>http://localhost:1313/posts/custom-domain-to-azure-web-app/</guid>
-      <description>&lt;h3 id=&#34;configure-custom-domain-name&#34;&gt;Configure custom domain name&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;make sure you have a domain registered&lt;/li&gt;&#xA;&lt;li&gt;Generate TXT and CNAME from Azure potal&lt;/li&gt;&#xA;&lt;li&gt;Register the infomation from Azure to DNS provider&#xA;&lt;em&gt;&amp;ldquo;Copy the CNAME hostname record and enter it with your DNS provider to confirm your domain ownership. It can take up to 48 hours for DNS entry changes to take effect.&amp;rdquo;&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Namecheap DNS entry&#xA;&lt;a href=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true&#34;&gt;&lt;img src=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true&#34; alt=&#34;Azure Print Scree&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Azure Custom Domains for Static Apps&#xA;&lt;a href=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true&#34;&gt;&lt;img src=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true&#34; alt=&#34;Azure Print Scree&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;configure-custom-domain-name&#34;&gt;Configure custom domain name&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;make sure you have a domain registered&lt;/li&gt;
+&lt;li&gt;Generate TXT and CNAME from Azure potal&lt;/li&gt;
+&lt;li&gt;Register the infomation from Azure to DNS provider
+&lt;em&gt;&amp;ldquo;Copy the CNAME hostname record and enter it with your DNS provider to confirm your domain ownership. It can take up to 48 hours for DNS entry changes to take effect.&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Namecheap DNS entry
+&lt;a href=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true&#34;&gt;&lt;img alt=&#34;Azure Print Scree&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Namecheap%20DNS.png?raw=true&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Azure Custom Domains for Static Apps
+&lt;a href=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true&#34;&gt;&lt;img alt=&#34;Azure Print Scree&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/dutza/content-public/blob/main/azure.geduta.com/images/Azure%20static%20Web%20App.png?raw=true&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solution to oryx version error generated by Github CI/CD </title>
       <link>http://localhost:1313/posts/github-ci-error-oryx-version/</link>
       <pubDate>Wed, 20 Nov 2024 09:38:17 +0000</pubDate>
       <guid>http://localhost:1313/posts/github-ci-error-oryx-version/</guid>
-      <description>&lt;p&gt;After set up the project in Azure and use Github as repo, the pipeline failed with error:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Using Hugo version:&#xD;&#xA;hugo v0.124.1-db083b05f16c945fec04f745f0ca8640560cf1ec+extended linux/amd64 BuildDate=2024-03-20T11:40:10Z VendorInfo=gohugoio&#xD;&#xA;&#xD;&#xA;WARN  Module &amp;#34;PaperMod&amp;#34; is not compatible with this Hugo version: Min 0.125.7; run &amp;#34;hugo mod graph&amp;#34; for more information.&#xD;&#xA;Start building sites … &#xD;&#xA;hugo v0.124.1-db083b05f16c945fec04f745f0ca8640560cf1ec+extended linux/amd64 BuildDate=2024-03-20T11:40:10Z VendorInfo=gohugoio&#xD;&#xA;&#xD;&#xA;ERROR =&amp;gt; hugo v0.125.7 or greater is required for hugo-PaperMod to build &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; the installed version is higher 0.137&#xD;&#xA;Total in 33 ms&#xD;&#xA;Error: error building site: logged 1 error(s)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;---End of Oryx build logs---&#xD;&#xA;Oryx has failed to build the solution.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Even though the proper Hugo ver is installed, oryx do not read the proper verion&lt;/p&gt;</description>
+      <description>&lt;p&gt;After set up the project in Azure and use Github as repo, the pipeline failed with error:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Using Hugo version:
+hugo v0.124.1-db083b05f16c945fec04f745f0ca8640560cf1ec+extended linux/amd64 BuildDate=2024-03-20T11:40:10Z VendorInfo=gohugoio
+
+WARN  Module &amp;#34;PaperMod&amp;#34; is not compatible with this Hugo version: Min 0.125.7; run &amp;#34;hugo mod graph&amp;#34; for more information.
+Start building sites … 
+hugo v0.124.1-db083b05f16c945fec04f745f0ca8640560cf1ec+extended linux/amd64 BuildDate=2024-03-20T11:40:10Z VendorInfo=gohugoio
+
+ERROR =&amp;gt; hugo v0.125.7 or greater is required for hugo-PaperMod to build &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; the installed version is higher 0.137
+Total in 33 ms
+Error: error building site: logged 1 error(s)
+
+
+---End of Oryx build logs---
+Oryx has failed to build the solution.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Even though the proper Hugo ver is installed, oryx do not read the proper verion&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update ChatGPT AI page to black theme</title>
       <link>http://localhost:1313/posts/chatgpt-black-theme/</link>
       <pubDate>Tue, 19 Nov 2024 07:38:17 +0000</pubDate>
       <guid>http://localhost:1313/posts/chatgpt-black-theme/</guid>
-      <description>&lt;h3 id=&#34;steps-to-update-chatgpt-ai-website-to-have-black-theme&#34;&gt;Steps to update ChatGPT Ai website to have black theme&lt;/h3&gt;&#xA;&lt;h3 id=&#34;how-to-enable-dark-mode-in-browsers&#34;&gt;How to Enable Dark Mode in Browsers&lt;/h3&gt;&#xA;&lt;p&gt;Follow these steps to enable a &lt;strong&gt;dark theme&lt;/strong&gt; (or dark mode) in popular browsers.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-google-chrome&#34;&gt;1. Google Chrome&lt;/h2&gt;&#xA;&lt;h3 id=&#34;enable-system-wide-dark-mode-automatic-approach&#34;&gt;Enable System-Wide Dark Mode (Automatic Approach)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;em&gt;Settings &amp;gt; Personalization &amp;gt; Colors&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Under &amp;ldquo;Choose your color,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mac&lt;/strong&gt;:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;em&gt;System Preferences &amp;gt; General&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;In &amp;ldquo;Appearance,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Chrome will switch to dark mode automatically.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 03 Nov 2024 18:38:17 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;This is my first post using the PaperMod theme!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>http://localhost:1313/posts/archives/</link>
-      <pubDate>Sun, 03 Nov 2024 16:58:17 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archives/</guid>
-      <description>archives</description>
+      <description>&lt;h3 id=&#34;steps-to-update-chatgpt-ai-website-to-have-black-theme&#34;&gt;Steps to update ChatGPT Ai website to have black theme&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-enable-dark-mode-in-browsers&#34;&gt;How to Enable Dark Mode in Browsers&lt;/h3&gt;
+&lt;p&gt;Follow these steps to enable a &lt;strong&gt;dark theme&lt;/strong&gt; (or dark mode) in popular browsers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-google-chrome&#34;&gt;1. Google Chrome&lt;/h2&gt;
+&lt;h3 id=&#34;enable-system-wide-dark-mode-automatic-approach&#34;&gt;Enable System-Wide Dark Mode (Automatic Approach)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;Settings &amp;gt; Personalization &amp;gt; Colors&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Under &amp;ldquo;Choose your color,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mac&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;System Preferences &amp;gt; General&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In &amp;ldquo;Appearance,&amp;rdquo; select &lt;strong&gt;Dark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chrome will switch to dark mode automatically.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo framework deployed to Azure cloud</title>
       <link>http://localhost:1313/posts/hugo-2-azure/</link>
       <pubDate>Sun, 03 Nov 2024 16:58:17 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugo-2-azure/</guid>
-      <description>&lt;h2 id=&#34;-steps-to-create-a-website-with-hugo-framework-deployed-to-azure-cloud-using-github-continuos-integration&#34;&gt;✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;-getting-started-to-create-a-free-website-with-incredible-performace&#34;&gt;🚀 Getting Started to create a free website with incredible performace&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;environment: Windows 10 with admin rights&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#choco&#34;&gt;install chocolatey package manager&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#hugo&#34;&gt;install hugo using chocolatey&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#VS&#34;&gt;install Visual studio code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#git&#34;&gt;install Git &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#commit&#34;&gt;commit to Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#publish&#34;&gt;Create Azure Static Web App&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;choco&#34;&gt;install chocolatey package manager&lt;/h3&gt;&#xA;&lt;p&gt;Open CMD as administrator and run:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;-steps-to-create-a-website-with-hugo-framework-deployed-to-azure-cloud-using-github-continuos-integration&#34;&gt;✨ Steps to create a website with Hugo framework deployed to Azure cloud using GitHub continuos integration&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;-getting-started-to-create-a-free-website-with-incredible-performace&#34;&gt;🚀 Getting Started to create a free website with incredible performace&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;environment: Windows 10 with admin rights&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#choco&#34;&gt;install chocolatey package manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hugo&#34;&gt;install hugo using chocolatey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#VS&#34;&gt;install Visual studio code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#git&#34;&gt;install Git &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#commit&#34;&gt;commit to Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#publish&#34;&gt;Create Azure Static Web App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;choco&#34;&gt;install chocolatey package manager&lt;/h3&gt;
+&lt;p&gt;Open CMD as administrator and run:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown cheat sheet for Github</title>
       <link>http://localhost:1313/posts/markdown-cheat-sheet/</link>
       <pubDate>Fri, 01 Nov 2024 18:38:17 +0000</pubDate>
       <guid>http://localhost:1313/posts/markdown-cheat-sheet/</guid>
-      <description>&lt;h2 id=&#34;-markdown-cheat-sheet-for-github&#34;&gt;✨ Markdown cheat sheet for Github&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## ✨ Markdown cheat sheet for Github&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Link:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**title**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;link&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# H1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## H2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### H3&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;!&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;alt text&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;image.jpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Image Error:&#xA;&lt;img src=&#34;https://github.com/dutza/georgeduta.com/blob/master/static/github%20CI%20-%20Oryx%20issue.png?raw=true&#34; alt=&#34;Error&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;image html&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;!&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;description&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://github.com/dutza/georgeduta.com/image.jpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Link:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**George Duta**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://georgeduta.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;-markdown-cheat-sheet-for-github&#34;&gt;✨ Markdown cheat sheet for Github&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## ✨ Markdown cheat sheet for Github&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Link:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**title**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;link&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# H1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## H2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### H3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;!&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;alt text&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;image.jpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Image Error:
+&lt;img alt=&#34;Error&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/dutza/georgeduta.com/blob/master/static/github%20CI%20-%20Oryx%20issue.png?raw=true&#34;&gt;&lt;/p&gt;
+&lt;p&gt;image html&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;!&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;description&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://github.com/dutza/georgeduta.com/image.jpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Link:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;**George Duta**&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://georgeduta.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://georgeduta.com&#34;&gt;&lt;strong&gt;George Duta&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
