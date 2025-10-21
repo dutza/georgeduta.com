@@ -1,0 +1,172 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+    
+    <div class="chatbot-container">
+      <div id="chat-messages"></div>
+      <div class="chat-input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <style>
+      .chatbot-container {
+        margin: 2rem 0;
+        border-radius: 12px;
+        background: #2d2d2d;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      #chat-messages {
+        flex-grow: 1;
+        overflow-y: auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: #1e1e1e;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .chat-input-container {
+        display: flex;
+        gap: 0.75rem;
+        padding: 0.5rem;
+        background: #1e1e1e;
+        border-radius: 8px;
+      }
+      #user-input {
+        flex-grow: 1;
+        padding: 0.75rem 1rem;
+        border: 1px solid #404040;
+        border-radius: 6px;
+        background: #333333;
+        color: #ffffff;
+        font-size: 1rem;
+      }
+      #user-input:focus {
+        outline: none;
+        border-color: #0078d4;
+        box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.2);
+      }
+      button {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        background: #0078d4;
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background-color 0.2s;
+      }
+      button:hover {
+        background: #0086f0;
+      }
+      .message {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+        max-width: 85%;
+        word-wrap: break-word;
+      }
+      .user-message {
+        background: #0078d4;
+        color: white;
+        margin-left: auto;
+        margin-right: 1rem;
+      }
+      .ai-message {
+        background: #404040;
+        color: white;
+        margin-right: auto;
+        margin-left: 1rem;
+      }
+    </style>
+
+    <script>
+      const deploymentName = 'gpt-4o';
+      // IMPORTANT: do NOT embed long-lived API keys in client-side code.
+      // Use a server-side proxy or short-lived tokens in production.
+  const apiKey = '<REDACTED_KEY>'; // placeholder - do not keep real keys in repo
+      // Add headers (replace with server-side proxy URL in production)
+      const headers = {
+        'Content-Type': 'application/json',
+        'api-key': apiKey
+      };
+
+      async function sendMessage() {
+        const input = document.getElementById('user-input');
+        const message = input.value.trim();
+        if (!message) return;
+
+        // Add user message to chat
+        addMessage(message, 'user');
+        input.value = '';
+
+        try {
+          const response = await fetch(`https://ai-pl-01.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-12-01-preview`, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify({
+              messages: [
+                { role: "system", content: "You are an AI Agent. Answer user questions helpfully and directly." },
+                { role: 'user', content: message }
+              ],
+              temperature: 0.7,
+              max_tokens: 800
+            })
+          });
+
+          if (!response.ok) {
+            const errorData = await response.text();
+            console.error('API Error:', response.status, errorData);
+            throw new Error(`API Error: ${response.status} - ${errorData}`);
+          }
+
+          const data = await response.json();
+          if (data.error) {
+            console.error('Response Error:', data.error);
+            throw new Error(data.error.message || 'Unknown error in response');
+          }
+
+          // Add AI response to chat
+          if (data.choices && data.choices[0] && data.choices[0].message) {
+            addMessage(data.choices[0].message.content, 'ai');
+          } else {
+            console.error('Unexpected response format:', data);
+            throw new Error('Unexpected response format from API');
+          }
+        } catch (error) {
+          console.error('Detailed Error:', error);
+          addMessage(`Error: ${error.message}`, 'ai');
+        }
+      }
+
+      function addMessage(content, role) {
+        const messagesDiv = document.getElementById('chat-messages');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${role}-message`;
+        messageDiv.textContent = content;
+        messagesDiv.appendChild(messageDiv);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      }
+
+      // Allow sending message with Enter key
+      document.getElementById('user-input').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          sendMessage();
+        }
+      });
+    </script>
+  </div>
+</article>
+{{ end }}
